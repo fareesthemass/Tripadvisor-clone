@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tripadvisor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Gabarito:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar__title"><img src="tripadvisor-icon.webp" alt="" width="40px">
+            <h1> Tripadvisor</h1>
+        </div>
+        <div class="navbar__center">
+            <p>Discover</p>
+            <p>Trips</p>
+            <p>Review</p>
+            <p>More</p>
+        </div>
+        <div class="navbar__right">
+            <div class="navbar__right__lan"><i class="fa-solid fa-globe" style="color: #000000;"></i>
+                <p>| INR</p>
+            </div>
+            <div class="navbar__signin">
+                <p>Sign in</p>
+            </div>
+        </div>
+
+
+        <div class="menutaggle">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <div class="profiletaggle">
+            <i class="fa-regular fa-user"></i>
+        </div>
+    </nav>
+
+    <!-- whereto -->
+    <div class="whereto">
+        <h1 class="whereto__title">Where to?</h1>
+        <div class="whereto__content">
+            <p class="whereto__content__p"><svg viewBox="0 0 24 24" width="24px" height="24px" class="d Vb egaXP UmNoP">
+                    <path
+                        d="M3 21.2h-.75v.75H3v-.75zm0-12l-.416-.624-.334.223v.4H3zm9-6l.416-.624L12 2.299l-.416.277L12 3.2zm9.01 6h.75v-.402l-.334-.222-.416.624zm0 12v.75h.75v-.75h-.75zm-17.26 0v-12h-1.5v12h1.5zM3.416 9.824l9-6-.832-1.248-9 6 .832 1.248zm8.168-6l9.01 6 .832-1.248-9.01-6-.832 1.248zM20.26 9.2v12h1.5v-12h-1.5zm.75 11.25H3v1.5h18.01v-1.5z">
+                    </path>
+                </svg> Search All</p>
+            <p class="whereto__content__p"><svg viewBox="0 0 24 24" width="24px" height="24px" class="d Vb egaXP UmNoP">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M3.252 5.405c0-.47.38-.85.85-.85h15.624c.47 0 .85.38.85.85v6.649c.68.562 1.22 1.393 1.22 2.544v4.847h-1.5V17.77H3.704v1.674h-1.5V14.57c.025-.654.304-1.588 1.05-2.35V5.404zm2.635 5.587a6.6 6.6 0 01.836-.052h3.896c-.502-.482-1.31-.93-2.433-.93-1.09 0-1.83.466-2.3.982zm7.389-.052h4.468l.036.004a5.2 5.2 0 01.537.082 2.351 2.351 0 00-.222-.233c-.447-.41-1.18-.783-2.254-.783-1.078 0-1.75.273-2.18.584a2.396 2.396 0 00-.385.346zm5.8-1.282c-.726-.652-1.812-1.148-3.235-1.148-1.347 0-2.338.347-3.06.868-.342.247-.61.525-.821.802-.736-.861-2.005-1.67-3.774-1.67-1.629 0-2.733.712-3.434 1.503V6.055h14.324v3.603zM3.703 16.27h16.594v-1.673c0-.703-.355-1.188-.888-1.545-.56-.374-1.263-.561-1.74-.613H6.724c-1.118 0-1.81.317-2.237.678-.57.482-.765 1.123-.783 1.496v1.657z">
+                    </path>
+                </svg>Hotels</p>
+            <p class="whereto__content__p"><svg viewBox="0 0 24 24" width="24px" height="24px" class="d Vb egaXP UmNoP">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M2.25 5.25h19.5v4.454l-.536.16a2.752 2.752 0 000 5.272l.536.16v4.454H2.25v-4.454l.536-.16a2.752 2.752 0 000-5.272l-.536-.16V5.25zm1.5 1.5v1.876a4.25 4.25 0 010 7.748v1.876h16.5v-1.876a4.25 4.25 0 010-7.748V6.75H3.75z">
+                    </path>
+                    <path
+                        d="M12 15a1 1 0 110 2 1 1 0 010-2zM12 11.5a1 1 0 110 2 1 1 0 010-2zM12 8a1 1 0 110 2 1 1 0 010-2z">
+                    </path>
+                </svg>Things to Do</p>
+            <p class="whereto__content__p"><svg viewBox="0 0 24 24" width="24px" height="24px" class="d Vb egaXP UmNoP">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M13.578 4.891L16.25 2.22l1.06 1.06-2.671 2.672c-.679.679-1.055 1.462-1.12 2.199-.043.5.054 1.003.327 1.472L18.75 4.72l1.06 1.06-4.906 4.906c.473.281.974.387 1.466.354.718-.047 1.467-.394 2.096-1.023A869.223 869.223 0 0021.02 7.45l.226-.228h.001l1.066 1.055-.227.23a983.524 983.524 0 01-2.56 2.57c-.849.849-1.927 1.384-3.057 1.459a4.026 4.026 0 01-2.647-.768L12.591 13l7.72 7.72-1.061 1.06-5.97-5.97-3 3-1.75-1.75-4.72 4.72-1.06-1.06L7.47 16 3.077 11.61a4.75 4.75 0 010-6.718l.702-.702 7.75 7.75 1.232-1.232a3.971 3.971 0 01-.737-2.686c.1-1.147.67-2.246 1.553-3.13zm-1.359 9.86L3.808 6.338a3.25 3.25 0 00.33 4.21l6.142 6.14 1.94-1.939z">
+                    </path>
+                </svg>Restaurants</p>
+            <p class="whereto__content__p"><svg viewBox="0 0 24 24" width="24px" height="24px" class="d Vb egaXP UmNoP">
+                    <path
+                        d="M3 21.2h-.75v.75H3v-.75zm0-12l-.416-.624-.334.223V9.2H3zm9-6l.416-.624L12 2.299l-.416.277L12 3.2zm9.01 6h.75v-.402l-.334-.222-.416.624zm0 12v.75h.75v-.75h-.75zm-17.26 0v-12h-1.5v12h1.5zM3.416 9.824l9-6-.832-1.248-9 6 .832 1.248zm8.168-6l9.01 6 .832-1.248-9.01-6-.832 1.248zM20.26 9.2v12h1.5v-12h-1.5zm.75 11.25H3v1.5h18.01v-1.5zM18 12.96h-6.99v1.5H18v-1.5zm-7.74.75c0 .69-.56 1.25-1.25 1.25v1.5a2.75 2.75 0 002.75-2.75h-1.5zm-1.25 1.25c-.69 0-1.25-.56-1.25-1.25h-1.5a2.75 2.75 0 002.75 2.75v-1.5zm-1.25-1.25c0-.69.56-1.25 1.25-1.25v-1.5a2.75 2.75 0 00-2.75 2.75h1.5zm1.25-1.25c.69 0 1.25.56 1.25 1.25h1.5a2.75 2.75 0 00-2.75-2.75v1.5zm5.24 1.25v3h1.5v-3h-1.5z">
+                    </path>
+                </svg>Holiday Homes</p>
+        </div>
+
+    </div>
+
+    <!-- searchbar -->
+    <div class="searchcenter">
+        <div class="whereto__searchbar">
+            <div class="whereto__searchbar__left">
+                <svg viewBox="0 0 24 24" width="25px" height="25px" class="d Vb UmNoP">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M9.74 3.75a5.99 5.99 0 100 11.98 5.99 5.99 0 000-11.98zM2.25 9.74a7.49 7.49 0 1113.3 4.728l5.44 5.442-1.06 1.06-5.44-5.439A7.49 7.49 0 012.25 9.74z">
+                    </path>
+                </svg>
+                <input type="search" placeholder="Place to go, things to do, hotels...">
+            </div>
+            <p>Search</p>
+        </div>
+    </div>
+    <!-- titleimg -->
+    <div class="titleimg">
+        <img src="img/home-gai-entry-dv.png" width="100%">
+        <div class="titleimg__content">
+            <div class="titleimg__content__s1">
+                <p class="titleimg__content__s1__sfont">Powered by AI
+                <h5 class="titleimg__content__s1__beta">BETA</h5>
+            </div>
+            <div>
+                <h1 class="titleimg__content__s2">Build a trip in minutes</h1>
+            </div>
+            <div>
+                <p class="titleimg__content__s3">Get a personalised itineracy just for you, guided by traveller tips and
+                    reviews.</p>
+            </div>
+            <div class="titleimg__content__button">
+                <p><i class="fa-solid fa-location-dot" style="color: #fafafa;"></i></p>
+                <p class="titleimg__content__button__font">Start a Trip with AI</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- staysomewhere -->
+    <div class="staysomewhere">
+        <div class="staysomewhere__title">
+            <h2>Stay somewhere award-winning</h2>
+            <p>2024’s Travellers’ Choice Awards Best of the Best Hotels</p>
+        </div>
+        <div class="staysomewhere__img">
+            <div class="relative">
+                <img src="img/smw1.jpg" width="250px" alt="">
+                <h2 class="absoltive">Top Hotels</h2>
+            </div>
+            <div class="relative">
+                <img src="img/smw2.jpg" width="250px" alt="">
+                <h2 class="absoltive">All-Inclusive Hotels</h2>
+            </div>
+            <div class="relative">
+                <img src="img/smw3.png" width="250px" height="250px" alt="">
+                <h2 class="absoltive">Family-Friendly Hotels</h2>
+            </div>
+            <div class="relative">
+                <img src="img/smw4.jpg" width="250px" alt="">
+                <h2 class="absoltive">Luxury Hotels</h2>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Ways to tour Hyderabad District -->
+    <div class="Waystoyour">
+        <div>
+            <h2 class="Waystoyour__title">Ways to tour Hyderabad District</h2>
+            <p class="Waystoyour__para">Book these experiences for a close-up look at Hyderabad District</p>
+        </div>
+        <div class="Waystoyour__img">
+            <div class="Waystoyour__img__and__p">
+                <img src="img/waysur1.jpg" width="250" height="250">
+                <p class="Waystoyour__p">Heritage & Cultural Walk of Hyderabad (2 Hours Guided Walking Tour)</p>
+
+                <div class="Waystoyour__rating">
+                    <p i class="fa-solid fa-circle" style="color: #01891c;"></i><i class="fa-solid fa-circle"
+                            style="color: #01891c;"></i><i class="fa-solid fa-circle" style="color: #01891c;"></i><i
+                            class="fa-solid fa-circle" style="color: #01891c;"></i> 10</p>
+                </div>
+
+                <p class="Waystoyour__prize">from Rs.72,404 per adult</p>
+
+            </div>
+
+            <div class="Waystoyour__img__and__p">
+                <img src="img/waysur2.jpg" width="250" height="250" alt="">
+                <p>Golconda Heritage Half Day Guided Private Tour</p>
+
+                <div class="Waystoyour__rating">
+                    <p i class="fa-solid fa-circle" style="color: #01891c;"></i><i class="fa-solid fa-circle"
+                            style="color: #01891c;"></i><i class="fa-solid fa-circle" style="color: #01891c;"></i><i
+                            class="fa-solid fa-circle" style="color: #01891c;"></i> 15</p>
+                </div>
+
+                <p class="Waystoyour__prize">from Rs.7,404 per adult</p>
+
+
+            </div>
+
+            <div class="Waystoyour__img__and__p">
+                <img src="img/waysur3.jpg" width="250" height="250" alt="">
+                <p>Half day Hyderabad tour to Golkonda fort & Qutub Shahi tombs in private car</p>
+
+                <div class="Waystoyour__rating">
+                    <p i class="fa-solid fa-circle" style="color: #01891c;"></i><i class="fa-solid fa-circle"
+                            style="color: #01891c;"></i><i class="fa-solid fa-circle" style="color: #01891c;"></i><i
+                            class="fa-solid fa-circle" style="color: #01891c;"></i><i class="fa-solid fa-circle"
+                            style="color: #01891c;"></i> 8</p>
+                </div>
+
+                <p class="Waystoyour__prize">from Rs.3,404 per adult</p>
+            </div>
+
+            <div class="Waystoyour__img__and__p">
+                <img src="img/waysur4.jpg" width="250" height="250" alt="">
+                <p>The City of Pearls Walking Tour</p>
+
+                <div class="Waystoyour__rating">
+                    <p i class="fa-solid fa-circle" style="color: #01891c;"></i><i class="fa-solid fa-circle"
+                            style="color: #01891c;"></i><i class="fa-solid fa-circle" style="color: #01891c;"></i><i
+                            class="fa-solid fa-circle" style="color: #01891c;"></i> 15</p>
+                </div>
+
+                <p class="Waystoyour__prize">from Rs.72,404 per adult</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Asia’s best culinary hotspots -->
+    <div class="asia">
+        <div class="asia__title">
+            <h2 class="asia__title__h2">Asia’s best culinary hotspots</h2>
+            <p class="asia__title__p">From izakayas in Japan to hawker centres in Singapore</p>
+        </div>
+
+        <div class="asia__container">
+            <div class="asia__container__card">
+                <img src="img/asia1.jpg" width="250px" alt="">
+                <div class="hearticon"><i class="fa-regular fa-heart fa-lg"></i></div>
+                <p>Hanoi, Vietnam</p>
+            </div>
+
+            <div class="asia__container__card">
+                <img src="img/asia2.jpg" alt="" width="250px">
+                <div class="hearticon"><i class="fa-regular fa-heart fa-lg"></i></div>
+                <p>Bangkok, Thailand</p>
+            </div>
+
+            <div class="asia__container__card">
+                <img src="img/asia3.jpg" alt="" width="250px">
+                <div class="hearticon"><i class="fa-regular fa-heart fa-lg"></i></div>
+                <p>Hong Kong, China</p>
+            </div>
+
+            <div class="asia__container__card">
+                <img src="img/asia4.jpg" width="250px">
+                <div class="hearticon"><i class="fa-regular fa-heart fa-lg"></i></div>
+                <p>Singapore, Singapore</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- most to explore -->
+    <div class="mostexplore">
+        <div class="mostexplore__title">
+            <h2>Most to Explore</h2>
+        </div>
+
+        <div class="mostexplore__container">
+            <div class="mostexplore__container__card">
+                <img src="img/most1.jpg" width="350px" height="200px">
+                <div class="mhearticon"><i class="fa-regular fa-heart fa-lg"></i></div>
+                <p>6 incredible places to visit near Phuket</p>
+            </div>
+
+            <div class="mostexplore__container__card">
+                <img src="img/most2.jpg" width="350px" height="200px">
+                <div class="mhearticon"><i class="fa-regular fa-heart fa-lg"></i></div>
+                <p>17 cool stays by the water for a once-a-lifetime trip</p>
+            </div>
+
+            <div class="mostexplore__container__card">
+
+                <img src="img/most3.jpg" width="350px" height="200px">
+                <div class="mhearticon"><i class="fa-regular fa-heart fa-lg"></i></div>
+                <p>3 perfect days in Osaka</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Top destinations for your next holiday -->
+    <div class="topdestination">
+        <div class="topdestination__title">
+            <h2 class="topdestination__title__h2">Top destinations for your next holiday</h2>
+            <p class="topdestination__title__p">Here's where your fellow travellers are headed</p>
+        </div>
+
+        <div class="topdestination__container">
+
+            <div class="topdestination__container__card">
+                <img src="img/top1.jpg" width="250px" height="250">
+                <h1>Tokyo, Japan</h1>
+            </div>
+
+            <div class="topdestination__container__card">
+                <img src="img/top2.jpg" width="250px" height="250">
+                <h1>Singapore, Singapore</h1>
+            </div>
+
+            <div class="topdestination__container__card">
+                <img src="img/top3.jpg" width="250px" height="250">
+                <h1>Hanoi, Vietnam</h1>
+            </div>
+
+            <div class="topdestination__container__card">
+                <img src="img/top4.jpg" width="250px" height="250">
+                <h1>Seoul, South Korea</h1>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- beforefooterimg -->
+    <div class="beforefooterimg">
+        <img src="img/beforefooterimg.png" alt="">
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+
+        
+        <div class="footer__top">
+
+            <div class="footer__top__left">
+                <div>
+                    <div>
+                        About Tripadvisor
+                    </div>
+                    <ul>
+
+                        <li>About Us</li>
+                        <li>Press</li>
+                        <li>Resources and Policies</li>
+                        <li>Careers</li>
+                        <li>Trust & Safety</li>
+                        <li>Contact Us</li>
+                        <li>Accessibilty Statement</li>
+                    </ul>
+                </div>
+
+
+                <div>
+                    <div>
+                        Explore
+                    </div>
+                    <ul>
+
+                        <li>Write a review</li>
+                        <li>Add a Place</li>
+                        <li>Join</li>
+                        <li>Travellers’ Choice</li>
+                        <li>GreenLeaders</li>
+                        <li>Help Centre</li>
+                        <li>Travel Articles</li>
+                    </ul>
+                </div>
+
+                <div>
+
+                    <div>
+                        Do Business With Us
+                    </div>
+                    <ul>
+
+                        <li>Owners & DMO/CVB</li>
+                        <li>Business Advantage</li>
+                        <li>Sponsored Placements</li>
+                        <li>Access our Content API</li>
+
+                    </ul>
+
+                    <div class="gettheapp">
+                        <div>
+                            Get The App
+                        </div>
+                        <ul>
+
+                            <li>Iphone</li>
+                            <li>Android</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div>
+                <div>
+                    Tripadvisor Sites
+                </div>
+                <ul>
+
+                    <li>Book tours and attraction tickets on Viator</li>
+
+            </div>
+        </div>
+
+        <div class="footer__bottom">
+            <div class="footer__bottom__left">
+                <img src="tripadvisor-icon.webp" alt="" width="40px" class="bottomicon">
+
+                <div>
+                    <p>© 2024 Tripadvisor LLC All rights reserved.</p>
+                    <div class="terms">
+                        <p>Terms of Use</p>
+                        <p>Privacy and Cookies Statement</p>
+                        <p>Cookies Consent</p>
+                        <p>Site map</p>
+                        <p>How the site works</p>
+                        <p>Contact Us</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="select">
+                <div class="select1">
+                    <select name="" id="">
+                        <option value="">INR</option>
+                        <option value="">DRM</option>
+                        <option value="">HK</option>
+                    </select>
+                </div>
+                <div class="select2">
+                    <select name="" id="">
+                        <option value="">India</option>
+                        <option value="">Dubai</option>
+                        <option value="">Hong Kong</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
